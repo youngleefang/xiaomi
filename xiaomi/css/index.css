@@ -1,0 +1,281 @@
+a{
+    text-decoration: none;
+}
+.home-hero{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.site-category{
+    width:234px;
+    height: 460px;
+    position: absolute;
+    background: #665E5E;
+}
+.site-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0;    
+}
+.site-item li a{
+    display: block;
+    width: 234px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.site-item li a:hover{
+    background: #FF6700;
+}
+.site-banner{
+    width: 1226px;
+    height: 460px;
+}
+.site-banner a{
+    display: block;
+    width: 1226px;
+    height: 460px;
+}
+.site-banner a img{
+    max-width: 100%;
+}
+.home-hero-sub{
+    margin-top: 15px;
+    margin-bottom: 20xp;
+}
+.span4{
+    width: 234px;
+    float: left;
+}
+.home-channel-list{
+    margin: 0;
+    padding: 3px;
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #5f5750;
+}
+.home-channel-list li{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    box-sizing: border-box;
+}
+/*解决浮动产生的高度坍塌*/
+container::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.home-channel-list::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.span16{
+    width: 978px;
+    float: left;
+    margin-left: 14px;
+}
+.home-promo-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.home-promo-list .first{
+margin-left: 0px !important;
+}
+.home-promo-list li{
+ float: left;
+ width: 316px;
+ height: 170px;
+ margin-left: 15px;
+}
+.home-promo-list li img{
+    width: 316px;
+    height: 170px;
+    border: 0;
+}
+
+.home-banner-box-hero{
+    width: 1226px;
+    margin: 15px auto;
+    
+}
+
+.home-banner-box-hero a{
+    display: block;
+    width: 1226px;
+    height: 120px;
+}
+.home-banner-box-hero a img{
+    max-width: 1226px;
+}
+
+/*内容区域*/
+.page-main{
+    width: 100%;
+    background: #f5f5f5;
+}
+.center{
+    width: 1226px;
+    margin: 0 auto;
+
+}
+.box-hd{
+    position: relative;
+    height: 58xp;
+}
+.box-hd .title{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.box-hd .more{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.box-hd .more a{
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    text-decoration: none;
+}
+.box-hd .more a:hover{
+    color: #FF6700;
+}
+.span-first{
+    width: 234px;
+    height:614px;
+    float: left;
+}
+.span-first img{
+    max-width: 234px;
+    max-height:614px; 
+}
+.span10{
+    width: 978px;
+    margin-left: 14px;
+}
+.brick-list{
+    width: 992px;
+    list-style: none;
+    height: 614px;
+    margin: 0;
+    margin-left: -14px;
+    padding: 0;
+} 
+.brick-item{
+    position: relative;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    height: 260px;
+    padding: 20px 0;
+}
+.brick-item .figure-img{
+    width: 160px;
+    height: 160px;
+    margin:  0 auto 18px;
+}
+.brick-item .figure-img img{
+    max-width: 160px;
+}
+.brick-item .title{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color:#333;
+    margin: 0 10px 2px;
+}
+.brick-item .desc{
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #b0b0b0;
+}
+.brick-item .price{
+    text-align: center;
+    color: #ff6700;
+    margin: 0 10px 14px;
+}
+.flag-new{
+    position: absolute;
+    top:0;
+    left: 50%;
+    background: #83c44e;
+    width: 64px;
+    height: 20px;
+   margin-left: -32px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.home-banner-box{
+    width: 1226px;
+    margin: 20px 0 28xp;
+    height: 120px;
+}
+.home-banner-box img{
+ max-width: 1226px;
+ height: 120xp;
+}
+.tab-list{
+    margin:0;
+    padding: 16px 0 0;
+    list-style: none;
+    font-size: 16px;
+}
+.tab-list li{
+    float: left;
+    margin: 0 0 0 30px;
+    color: #424242;
+
+}
+.tab-list .tab-active{
+    border-bottom: 2px solid #ff6700;
+    color: #ff6700;
+}
+.brick-item-s{
+    height: 93px;
+    padding-top: 30px;
+}
+.brick-item-s .figure-img{
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    width: 80px;
+    height: 80px;
+}
+.brick-item-s .figure-img img{
+    width: 80px;
+    height: 80px;
+}
+.brick-item-s .title-s{
+    font-size: 14px;
+    font-weight: 400;
+    color:#333;
+    margin: 23px 110px 5px 30px;
+}
+.price-s{
+    margin: 0px 118px 3px 30px !important ;
+}

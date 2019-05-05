@@ -11,7 +11,7 @@
     margin-right: auto;
 }
 /*清楚浮动塌陷*/
-.container::before{
+.container::after{
     content: "";
     display: block;
     clear: both
@@ -60,9 +60,36 @@
     position: relative;
 }
 .head-logo{
+    float: left;
     margin-top:22px;
     width: 55px;
     height: 55px;
     background: url(../images/logo.png) no-repeat;
+}
+/*li浮动*/
+.head-nav .nav-list{
+    list-style: none;
     float: left;
+    margin-top: 22px;
+}
+.head-nav .nav-list li {
+    float: left;
+    height: 55px;
+    line-height: 55px;
+}
+.head-nav .nav-list li a{
+    height: 55px;
+    line-height: 55px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.head-serch{
+    float: right;
+    margin-top: 22px;
+    height: 55px;
+}
+.serch-text,.serch-s{
+    display: block;
+    height: 55px;
+    outline: none;
 }
